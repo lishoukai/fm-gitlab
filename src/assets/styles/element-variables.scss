@@ -1,0 +1,56 @@
+
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "~element-ui/packages/theme-chalk/src/index";
+
+/* 改变主题色变量 */
+// $--color-primary: #2e7cf6;
+// $color-border: #434447;
+// $color-text-default: #FFF;
+// $color-text-background: #2B2D2E;
+// $color-title-default: #FFF;
+// $color-title-background: #1C1E1F;
+// $color-content-default: #FFF;
+// $color-content-background: #252728;
+
+:root{
+    --color:#3398ff;
+    --deeper-color:#2e7cf6;
+    --lighter-color:#409EFF;
+    --active-color:#066CFF;
+    --contrast-color:#fff;
+  }
+  
+  $theme-color: var(--color);
+  $theme-deeper-color:var(--deeper-color);
+  $theme-lighter-color:var(--lighter-color);
+  $theme-active-color:var(--active-color);
+  $theme-contrast-color:var(--contrast-color);
+  
+  
+  $color-primary: #2E7CF6;
+  
+  // 页面背景色-默认
+  $color-page-background-default: #404040;
+  // 页面背景色-深
+  $color-page-background-dark: #282828;
+  // 页面背景色-浅
+  $color-page-background-light: #535353;
+  
+  $color-page-border: #383838;
+  
+  // 输入框背景色
+  $color-input-background: #454545;
+  // 输入框文字颜色
+  $color-input-text: #fff;
+  // 输入框边框颜色
+  $color-input-border: #666666;
+  // 输入框背景色
+  $color-input-disabled-background: #7a7b7b;
+  // 输入框文字颜色
+  $color-input-disabled-text: #f8f8f8;
+  // 输入框边框颜色
+  $color-input-disabled-border: #7a7b7b;
+  
+  $color-tab-text-default: #ACACAC;
